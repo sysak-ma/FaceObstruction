@@ -126,7 +126,7 @@ Cropped Labeled Faces in the Wild (LFWcrop)
 \resizebox{0.95\textwidth}{!}{%
 \begin{tabular}{lllr}
 \toprule
-       Eyes &      Mouth &      Head &  Probability, \% \\
+       Eyes &      Mouth &      Head &  ID fault share, \% \\
 \midrule
    Identity &   Identity &  Identity &         0.00 \\
    Eyepatch &   Identity &  Identity &        11.87 \\
@@ -151,7 +151,7 @@ Cropped Labeled Faces in the Wild (LFWcrop)
 \resizebox{0.95\textwidth}{!}{%
 \begin{tabular}{lllr}
 \toprule
-       Eyes &      Mouth &      Head &  Probability, \% \\
+       Eyes &      Mouth &      Head &  ID fault share, \% \\
 \midrule
    Identity &  BlackMask &      Hood &        66.57 \\
  Sunglasses &   Identity &      Hood &        67.67 \\
@@ -278,6 +278,7 @@ ROC-кривая и ROC-AUC score
 \begin{frame}{Дальнейшие исследования}
 \begin{itemize}
     \item Рассмотрение поворотов лица в качестве окклюзий
+    \item Валидация на независимом датасете
     \item Использование более сложных архитектур, более долгое обучение модели
     \item Генерация закрытий по основным точкам лица (лендмаркам)
     \item Проверка работы методов на реальных данных
